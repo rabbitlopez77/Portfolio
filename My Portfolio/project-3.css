@@ -1,0 +1,24 @@
+@import "project-3.css";
+h1  {
+    text-align: center;
+  }
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+  iframe {
+    display: block;
+    margin: auto;
+  }
+  #header-img {
+    display: block;
+    margin: auto;
+    width: 150px;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

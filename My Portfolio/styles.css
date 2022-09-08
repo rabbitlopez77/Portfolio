@@ -1,0 +1,49 @@
+body {
+  background-image: url(/images/space.jpeg);
+  background-size: 100% 100%;
+}
+  #welcome-section {
+    text-align: center;
+    margin: auto;
+    padding-top: 75px;
+    color: white;
+  }
+  
+  #navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: white;
+    display: table;
+    margin: 0 auto;
+    height: 50px;
+    padding: 10px;
+    
+  }
+  #image-me {
+    display: block;
+    margin: auto;
+    max-width: 45%;
+    height: auto;
+  }
+  ul  {
+    display: inline;
+  }
+  li {
+    display: inline;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    font-family: sans; color: black;
+  }
+  .project-li {
+    color: white;
+  }
+  h1 {
+    color: white;
+  }
+  a {
+    color: white;
+  }
+  p {
+    color: white;
+  }
