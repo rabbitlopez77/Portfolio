@@ -1,6 +1,5 @@
 body {
-  background-image: url(/images/space.jpeg);
-  background-size: 100% 100%;
+  background-color: black;
 }
   #welcome-section {
     text-align: center;
