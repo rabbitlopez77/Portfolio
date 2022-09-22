@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Rabbit's To Do List">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Humberto Lopez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js_project.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Rabbit's To Do List</title>
+    
+    
+</head>
+<body>
+    <h1 id="title">Rabbbit's To Do List</h1>
+    
+    <input type="text" id="myInput">
+    <button id="submit_button" type="button" onclick="myFunction()">Click Me !</button>
+
+    <ul id="list">
+        <li id="liItem">grocery</li><button type="button" id="liButton">Erase</button><br></br>
+        <li id="liItem">auto shop</li><button type="button" id="liButton">Erase</button><br></br>
+        <li id="liItem">workout</li><button type="button" id="liButton">Erase</button><br></br>
+        <li id="liItem">coding</li><button type="button" id="liButton">Erase</button><br></br>
+    </ul>
+
+
+    <script>function myFunction() {
+        let myInput = document.getElementById("myInput").value;
+        listNode = document.getElementById("list");
+        liNode = document.createElement("liItem");
+        myInputNode = document.createTextNode(myInput)
+
+        liNode.appendChild(myInputNode);
+        listNode.appendChild(liNode)
+        
+
+        document.getElementById("myInput").value = " ";
+    }
+    
+    </script>
+    
+    
+ 
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
