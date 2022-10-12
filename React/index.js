@@ -1,4 +1,3 @@
-import Header from "./Header"
 
 function Footer() {
     return (
